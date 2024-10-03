@@ -1,0 +1,522 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Conferencia de Tecnología 2024",
+      "description": "Una conferencia anual sobre las últimas tendencias en tecnología",
+      "scheduledAt": "2023-04-10"
+    },
+    {
+      "id": 2,
+      "name": "Concierto de Rock en el Parque",
+      "description": "Un evento musical al aire libre con bandas locales e internacionales",
+      "scheduledAt": "2023-03-10"
+    },
+    {
+      "id": 3,
+      "name": "Maratón de la Ciudad",
+      "description": "Carrera anual de 42km a través de los lugares más emblemáticos de la ciudad",
+      "scheduledAt": "2023-02-10"
+    },
+    {
+      "id": 4,
+      "name": "Festival de Cine 2024",
+      "description": "Una celebración del cine independiente con proyecciones y charlas",
+      "scheduledAt": "2023-05-15"
+    },
+    {
+      "id": 5,
+      "name": "Exposición de Arte Moderno",
+      "description": "Una exhibición de artistas emergentes y sus obras contemporáneas",
+      "scheduledAt": "2023-06-20"
+    },
+    {
+      "id": 6,
+      "name": "Caminata Ecológica",
+      "description": "Un evento para concienciar sobre la conservación del medio ambiente",
+      "scheduledAt": "2023-07-25"
+    }
+  ],
+  "attendees": [
+    {
+      "id": 1,
+      "firstName": "Williams",
+      "lastName": "Gongora",
+      "eventId": 1,
+      "ticketIdentifier": "AAA1",
+      "checkedInAt": "2023-06-20"
+    },
+    {
+      "id": 2,
+      "firstName": "Alexsandra",
+      "lastName": "González",
+      "eventId": 1,
+      "ticketIdentifier": "AAA2",
+      "checkedInAt": "2023-07-20"
+    },
+    {
+      "id": 3,
+      "firstName": "Juan",
+      "lastName": "Rodríguez",
+      "eventId": 2,
+      "ticketIdentifier": "AAA3",
+      "checkedInAt": null
+    },
+    {
+      "id": 4,
+      "firstName": "Pablo",
+      "lastName": "Robles",
+      "eventId": 3,
+      "ticketIdentifier": "AAA4",
+      "checkedInAt": "2023-09-20"
+    },
+    {
+      "id": 5,
+      "firstName": "María",
+      "lastName": "López",
+      "eventId": 4,
+      "ticketIdentifier": "AAA5",
+      "checkedInAt": "2023-05-20"
+    },
+    {
+      "id": 6,
+      "firstName": "Carlos",
+      "lastName": "Martínez",
+      "eventId": 4,
+      "ticketIdentifier": "AAA6",
+      "checkedInAt": null
+    },
+    {
+      "id": 7,
+      "firstName": "Sofía",
+      "lastName": "Hernández",
+      "eventId": 5,
+      "ticketIdentifier": "AAA7",
+      "checkedInAt": "2023-06-25"
+    },
+    {
+      "id": 8,
+      "firstName": "Diego",
+      "lastName": "Pérez",
+      "eventId": 5,
+      "ticketIdentifier": "AAA8",
+      "checkedInAt": null
+    },
+    {
+      "id": 9,
+      "firstName": "Lucía",
+      "lastName": "Gómez",
+      "eventId": 6,
+      "ticketIdentifier": "AAA9",
+      "checkedInAt": "2023-08-10"
+    },
+    {
+      "id": 10,
+      "firstName": "Mateo",
+      "lastName": "Fernández",
+      "eventId": 6,
+      "ticketIdentifier": "AAA10",
+      "checkedInAt": null
+    },
+    {
+      "id": 11,
+      "firstName": "Isabella",
+      "lastName": "Castillo",
+      "eventId": 1,
+      "ticketIdentifier": "AAA11",
+      "checkedInAt": "2023-06-15"
+    },
+    {
+      "id": 12,
+      "firstName": "Sebastián",
+      "lastName": "Torres",
+      "eventId": 2,
+      "ticketIdentifier": "AAA12",
+      "checkedInAt": "2023-03-12"
+    },
+    {
+      "id": 13,
+      "firstName": "Valentina",
+      "lastName": "Ramírez",
+      "eventId": 3,
+      "ticketIdentifier": "AAA13",
+      "checkedInAt": "2023-09-15"
+    },
+    {
+      "id": 14,
+      "firstName": "Andrés",
+      "lastName": "Vega",
+      "eventId": 5,
+      "ticketIdentifier": "AAA14",
+      "checkedInAt": null
+    },
+    {
+      "id": 15,
+      "firstName": "Natalia",
+      "lastName": "Mendoza",
+      "eventId": 6,
+      "ticketIdentifier": "AAA15",
+      "checkedInAt": "2023-08-05"
+    },
+    {
+      "id": 16,
+      "firstName": "Fernando",
+      "lastName": "Suárez",
+      "eventId": 1,
+      "ticketIdentifier": "AAA16",
+      "checkedInAt": null
+    },
+    {
+      "id": 17,
+      "firstName": "Claudia",
+      "lastName": "Salazar",
+      "eventId": 2,
+      "ticketIdentifier": "AAA17",
+      "checkedInAt": "2023-03-15"
+    },
+    {
+      "id": 18,
+      "firstName": "Arturo",
+      "lastName": "Núñez",
+      "eventId": 3,
+      "ticketIdentifier": "AAA18",
+      "checkedInAt": null
+    },
+    {
+      "id": 19,
+      "firstName": "Patricia",
+      "lastName": "Romero",
+      "eventId": 4,
+      "ticketIdentifier": "AAA19",
+      "checkedInAt": "2023-05-25"
+    },
+    {
+      "id": 20,
+      "firstName": "Ricardo",
+      "lastName": "Figueroa",
+      "eventId": 5,
+      "ticketIdentifier": "AAA20",
+      "checkedInAt": "2023-06-30"
+    },
+    {
+      "id": 21,
+      "firstName": "Gabriela",
+      "lastName": "Martínez",
+      "eventId": 6,
+      "ticketIdentifier": "AAA21",
+      "checkedInAt": null
+    },
+    {
+      "id": 22,
+      "firstName": "Diego",
+      "lastName": "Ceballos",
+      "eventId": 1,
+      "ticketIdentifier": "AAA22",
+      "checkedInAt": "2023-06-05"
+    },
+    {
+      "id": 23,
+      "firstName": "Mariana",
+      "lastName": "Serrano",
+      "eventId": 2,
+      "ticketIdentifier": "AAA23",
+      "checkedInAt": "2023-03-18"
+    },
+    {
+      "id": 24,
+      "firstName": "Juan",
+      "lastName": "González",
+      "eventId": 3,
+      "ticketIdentifier": "AAA24",
+      "checkedInAt": null
+    },
+    {
+      "id": 25,
+      "firstName": "Alejandro",
+      "lastName": "Valdez",
+      "eventId": 4,
+      "ticketIdentifier": "AAA25",
+      "checkedInAt": null
+    },
+    {
+      "id": 26,
+      "firstName": "Verónica",
+      "lastName": "Alvarado",
+      "eventId": 5,
+      "ticketIdentifier": "AAA26",
+      "checkedInAt": "2023-06-28"
+    },
+    {
+      "id": 27,
+      "firstName": "Oscar",
+      "lastName": "López",
+      "eventId": 6,
+      "ticketIdentifier": "AAA27",
+      "checkedInAt": "2023-08-15"
+    },
+    {
+      "id": 28,
+      "firstName": "Fernando",
+      "lastName": "Salas",
+      "eventId": 1,
+      "ticketIdentifier": "AAA28",
+      "checkedInAt": "2023-06-21"
+    },
+    {
+      "id": 29,
+      "firstName": "Natalia",
+      "lastName": "Camacho",
+      "eventId": 2,
+      "ticketIdentifier": "AAA29",
+      "checkedInAt": null
+    },
+    {
+      "id": 30,
+      "firstName": "Diego",
+      "lastName": "Peña",
+      "eventId": 3,
+      "ticketIdentifier": "AAA30",
+      "checkedInAt": "2023-09-10"
+    },
+    {
+      "id": 31,
+      "firstName": "Sabrina",
+      "lastName": "Fuentes",
+      "eventId": 4,
+      "ticketIdentifier": "AAA31",
+      "checkedInAt": null
+    },
+    {
+      "id": 32,
+      "firstName": "Hugo",
+      "lastName": "Cruz",
+      "eventId": 5,
+      "ticketIdentifier": "AAA32",
+      "checkedInAt": "2023-06-18"
+    },
+    {
+      "id": 33,
+      "firstName": "Martha",
+      "lastName": "Soto",
+      "eventId": 6,
+      "ticketIdentifier": "AAA33",
+      "checkedInAt": "2023-08-20"
+    },
+    {
+      "id": 34,
+      "firstName": "Andrés",
+      "lastName": "Barrios",
+      "eventId": 1,
+      "ticketIdentifier": "AAA34",
+      "checkedInAt": null
+    },
+    {
+      "id": 35,
+      "firstName": "Juliana",
+      "lastName": "Bermúdez",
+      "eventId": 2,
+      "ticketIdentifier": "AAA35",
+      "checkedInAt": "2023-03-11"
+    },
+    {
+      "id": 36,
+      "firstName": "Pedro",
+      "lastName": "Maldonado",
+      "eventId": 3,
+      "ticketIdentifier": "AAA36",
+      "checkedInAt": null
+    },
+    {
+      "id": 37,
+      "firstName": "Vanessa",
+      "lastName": "López",
+      "eventId": 4,
+      "ticketIdentifier": "AAA37",
+      "checkedInAt": "2023-05-27"
+    },
+    {
+      "id": 38,
+      "firstName": "Samuel",
+      "lastName": "Pérez",
+      "eventId": 5,
+      "ticketIdentifier": "AAA38",
+      "checkedInAt": "2023-07-01"
+    },
+    {
+      "id": 39,
+      "firstName": "Laura",
+      "lastName": "González",
+      "eventId": 6,
+      "ticketIdentifier": "AAA39",
+      "checkedInAt": "2023-08-10"
+    },
+    {
+      "id": 40,
+      "firstName": "Felipe",
+      "lastName": "Morales",
+      "eventId": 1,
+      "ticketIdentifier": "AAA40",
+      "checkedInAt": null
+    },
+    {
+      "id": 41,
+      "firstName": "Tatiana",
+      "lastName": "Salinas",
+      "eventId": 2,
+      "ticketIdentifier": "AAA41",
+      "checkedInAt": "2023-03-21"
+    },
+    {
+      "id": 42,
+      "firstName": "Esteban",
+      "lastName": "García",
+      "eventId": 3,
+      "ticketIdentifier": "AAA42",
+      "checkedInAt": "2023-09-05"
+    },
+    {
+      "id": 43,
+      "firstName": "Ángela",
+      "lastName": "Castro",
+      "eventId": 4,
+      "ticketIdentifier": "AAA43",
+      "checkedInAt": null
+    },
+    {
+      "id": 44,
+      "firstName": "Martín",
+      "lastName": "Ríos",
+      "eventId": 5,
+      "ticketIdentifier": "AAA44",
+      "checkedInAt": null
+    },
+    {
+      "id": 45,
+      "firstName": "Jessica",
+      "lastName": "Arenas",
+      "eventId": 6,
+      "ticketIdentifier": "AAA45",
+      "checkedInAt": "2023-08-30"
+    },
+    {
+      "id": 46,
+      "firstName": "Luis",
+      "lastName": "Rojas",
+      "eventId": 1,
+      "ticketIdentifier": "AAA46",
+      "checkedInAt": null
+    },
+    {
+      "id": 47,
+      "firstName": "Diana",
+      "lastName": "Guerrero",
+      "eventId": 2,
+      "ticketIdentifier": "AAA47",
+      "checkedInAt": null
+    },
+    {
+      "id": 48,
+      "firstName": "Julián",
+      "lastName": "Valenzuela",
+      "eventId": 3,
+      "ticketIdentifier": "AAA48",
+      "checkedInAt": null
+    },
+    {
+      "id": 49,
+      "firstName": "Camila",
+      "lastName": "Mora",
+      "eventId": 4,
+      "ticketIdentifier": "AAA49",
+      "checkedInAt": "2023-05-14"
+    },
+    {
+      "id": 50,
+      "firstName": "Fernando",
+      "lastName": "Arrieta",
+      "eventId": 5,
+      "ticketIdentifier": "AAA50",
+      "checkedInAt": null
+    },
+    {
+      "id": 51,
+      "firstName": "Mariana",
+      "lastName": "Zamora",
+      "eventId": 6,
+      "ticketIdentifier": "AAA51",
+      "checkedInAt": null
+    },
+    {
+      "id": 52,
+      "firstName": "Eduardo",
+      "lastName": "Cardenas",
+      "eventId": 1,
+      "ticketIdentifier": "AAA52",
+      "checkedInAt": "2023-06-26"
+    },
+    {
+      "id": 53,
+      "firstName": "Nicolás",
+      "lastName": "Parra",
+      "eventId": 2,
+      "ticketIdentifier": "AAA53",
+      "checkedInAt": null
+    },
+    {
+      "id": 54,
+      "firstName": "Santiago",
+      "lastName": "Duque",
+      "eventId": 3,
+      "ticketIdentifier": "AAA54",
+      "checkedInAt": "2023-09-02"
+    },
+    {
+      "id": 55,
+      "firstName": "Daniela",
+      "lastName": "Jaramillo",
+      "eventId": 4,
+      "ticketIdentifier": "AAA55",
+      "checkedInAt": null
+    },
+    {
+      "id": 56,
+      "firstName": "Emilio",
+      "lastName": "Sánchez",
+      "eventId": 5,
+      "ticketIdentifier": "AAA56",
+      "checkedInAt": "2023-06-22"
+    },
+    {
+      "id": 57,
+      "firstName": "Martina",
+      "lastName": "Valenzuela",
+      "eventId": 6,
+      "ticketIdentifier": "AAA57",
+      "checkedInAt": null
+    },
+    {
+      "id": 58,
+      "firstName": "Alejandra",
+      "lastName": "Márquez",
+      "eventId": 1,
+      "ticketIdentifier": "AAA58",
+      "checkedInAt": "2023-06-29"
+    },
+    {
+      "id": 59,
+      "firstName": "Tomás",
+      "lastName": "Hernández",
+      "eventId": 2,
+      "ticketIdentifier": "AAA59",
+      "checkedInAt": null
+    },
+    {
+      "id": 60,
+      "firstName": "Mónica",
+      "lastName": "Palacios",
+      "eventId": 3,
+      "ticketIdentifier": "AAA60",
+      "checkedInAt": null
+    }
+  ]
+}
